@@ -1,0 +1,4 @@
+{
+  "markdown-pdf.executablePath": "/usr/bin/google-chrome",
+  "markdown-pdf.chromium.autoDownload": true
+}
