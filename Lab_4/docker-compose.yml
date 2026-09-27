@@ -1,0 +1,25 @@
+name: lab4
+
+x-node: &node
+  image: lab4-mpi:local
+  build: .
+  volumes:
+    - .:/home/mpiuser/lab
+  networks: [mpi_net]
+
+services:
+  master:
+    <<: *node
+    hostname: master
+  worker1:
+    <<: *node
+    hostname: worker1
+  worker2:
+    <<: *node
+    hostname: worker2
+  worker3:
+    <<: *node
+    hostname: worker3
+
+networks:
+  mpi_net:
