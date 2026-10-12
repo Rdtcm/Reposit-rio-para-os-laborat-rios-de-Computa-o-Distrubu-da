@@ -1,0 +1,194 @@
+Exemplo da aula
+GET http://localhost:5000/api/data
+HTTP 200
+{"mensagem": "Olá do Flask!", "status": "sucesso", "tecnologia": "Python"}
+
+Exemplo da aula
+GET http://localhost:3000/api/data
+HTTP 200
+{"mensagem": "Olá do Node.js!", "status": "sucesso", "tecnologia": "JavaScript"}
+
+Exercício 1 - fiscal
+GET http://localhost:5000/detalhes/1
+HTTP 200
+{"categoria": "Laptops", "preco": 2500.0}
+
+Exercício 1 - estoque
+GET http://localhost:3000/estoque/1
+HTTP 200
+{"nome": "Dell XPS 13", "estoque": 10}
+
+Exercício 2 - proxy
+GET http://localhost:3000/api/full-info/1
+HTTP 200
+{"id": "1", "nome": "Dell XPS 13", "estoque": 10, "categoria": "Laptops", "preco": 2500}
+
+Exercício 1 - fiscal
+GET http://localhost:5000/detalhes/2
+HTTP 200
+{"categoria": "Monitores", "preco": 1200.0}
+
+Exercício 1 - estoque
+GET http://localhost:3000/estoque/2
+HTTP 200
+{"nome": "Monitor LG 29", "estoque": 5}
+
+Exercício 2 - proxy
+GET http://localhost:3000/api/full-info/2
+HTTP 200
+{"id": "2", "nome": "Monitor LG 29", "estoque": 5, "categoria": "Monitores", "preco": 1200}
+
+Exercício 3 - status
+GET http://localhost:5000/status
+HTTP 200
+{"service": "Flask", "status": "online", "timestamp": "2026-10-11T03:30:09.181088+00:00"}
+
+Exercício 3 - status
+GET http://localhost:3000/status
+HTTP 200
+{"service": "Node.js", "status": "online", "timestamp": "2026-10-11T03:30:09.185Z"}
+
+Exercício 4 - cadastro distribuído
+POST http://localhost:3000/cadastrar
+HTTP 201
+{"id": "3", "nome": "TECLADO", "estoque": 20, "categoria": "Perifericos", "preco": 240}
+
+Exercício 4 - consulta fiscal
+GET http://localhost:5000/detalhes/3
+HTTP 200
+{"categoria": "Perifericos", "preco": 240.0}
+
+Exercício 4 - consulta comercial
+GET http://localhost:3000/estoque/3
+HTTP 200
+{"nome": "TECLADO", "estoque": 20}
+
+Exercício 4 - consulta integrada
+GET http://localhost:3000/api/full-info/3
+HTTP 200
+{"id": "3", "nome": "TECLADO", "estoque": 20, "categoria": "Perifericos", "preco": 240}
+
+Cadastro duplicado
+POST http://localhost:3000/cadastrar
+HTTP 409
+{"error": "ALREADY_EXISTS", "message": "ID já cadastrado"}
+
+Exercício 5 - ID inválido
+GET http://localhost:5000/detalhes/-5
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:5000/detalhes/abc
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:5000/detalhes/0
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:5000/detalhes/1.5
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Produto ausente
+GET http://localhost:5000/detalhes/999
+HTTP 404
+{"error": "NOT_FOUND", "message": "Produto não encontrado"}
+
+Exercício 5 - ID inválido
+GET http://localhost:3000/estoque/-5
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:3000/estoque/abc
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:3000/estoque/0
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:3000/estoque/1.5
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Produto ausente
+GET http://localhost:3000/estoque/999
+HTTP 404
+{"error": "NOT_FOUND", "message": "Produto não encontrado"}
+
+Exercício 5 - ID inválido
+GET http://localhost:3000/api/full-info/-5
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:3000/api/full-info/abc
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:3000/api/full-info/0
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Exercício 5 - ID inválido
+GET http://localhost:3000/api/full-info/1.5
+HTTP 400
+{"error": "INVALID_ID", "message": "O ID deve ser um inteiro positivo"}
+
+Produto ausente
+GET http://localhost:3000/api/full-info/999
+HTTP 404
+{"error": "NOT_FOUND", "message": "Produto não encontrado"}
+
+Dados inválidos
+POST http://localhost:5000/fiscal/cadastrar
+HTTP 400
+{"error": "INVALID_DATA", "message": "Preço e categoria inválidos"}
+
+JSON malformado
+POST http://localhost:5000/fiscal/cadastrar
+HTTP 400
+{"error": "INVALID_DATA", "message": "Envie um objeto JSON"}
+
+Dados inválidos
+POST http://localhost:3000/cadastrar
+HTTP 400
+{"error": "INVALID_DATA", "message": "Dados do produto inválidos"}
+
+JSON malformado
+POST http://localhost:3000/cadastrar
+HTTP 400
+{"error": "INVALID_JSON", "message": "JSON inválido"}
+
+Cadastro fiscal direto
+POST http://localhost:5000/fiscal/cadastrar
+HTTP 201
+{"categoria": "Teste", "preco": 120.01}
+
+Arredondamento monetário
+GET http://localhost:5000/detalhes/5
+HTTP 200
+{"categoria": "Teste", "preco": 120.01}
+
+Proxy com Flask desligado
+GET http://localhost:3000/api/full-info/1
+HTTP 502
+{"error": "FISCAL_UNAVAILABLE", "message": "Serviço fiscal indisponível"}
+
+Cadastro com Flask desligado
+POST http://localhost:3000/cadastrar
+HTTP 502
+{"error": "FISCAL_UNAVAILABLE", "message": "Serviço fiscal indisponível"}
+
+Sem gravação comercial na falha
+GET http://localhost:3000/estoque/4
+HTTP 404
+{"error": "NOT_FOUND", "message": "Produto não encontrado"}

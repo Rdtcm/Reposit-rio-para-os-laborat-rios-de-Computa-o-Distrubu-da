@@ -1,0 +1,408 @@
+[
+  {
+    "teste": "Exemplo da aula",
+    "metodo": "GET",
+    "url": "http://localhost:5000/api/data",
+    "http": 200,
+    "resposta": {
+      "mensagem": "Olá do Flask!",
+      "status": "sucesso",
+      "tecnologia": "Python"
+    }
+  },
+  {
+    "teste": "Exemplo da aula",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/data",
+    "http": 200,
+    "resposta": {
+      "mensagem": "Olá do Node.js!",
+      "status": "sucesso",
+      "tecnologia": "JavaScript"
+    }
+  },
+  {
+    "teste": "Exercício 1 - fiscal",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/1",
+    "http": 200,
+    "resposta": {
+      "categoria": "Laptops",
+      "preco": 2500.0
+    }
+  },
+  {
+    "teste": "Exercício 1 - estoque",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/1",
+    "http": 200,
+    "resposta": {
+      "nome": "Dell XPS 13",
+      "estoque": 10
+    }
+  },
+  {
+    "teste": "Exercício 2 - proxy",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/1",
+    "http": 200,
+    "resposta": {
+      "id": "1",
+      "nome": "Dell XPS 13",
+      "estoque": 10,
+      "categoria": "Laptops",
+      "preco": 2500
+    }
+  },
+  {
+    "teste": "Exercício 1 - fiscal",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/2",
+    "http": 200,
+    "resposta": {
+      "categoria": "Monitores",
+      "preco": 1200.0
+    }
+  },
+  {
+    "teste": "Exercício 1 - estoque",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/2",
+    "http": 200,
+    "resposta": {
+      "nome": "Monitor LG 29",
+      "estoque": 5
+    }
+  },
+  {
+    "teste": "Exercício 2 - proxy",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/2",
+    "http": 200,
+    "resposta": {
+      "id": "2",
+      "nome": "Monitor LG 29",
+      "estoque": 5,
+      "categoria": "Monitores",
+      "preco": 1200
+    }
+  },
+  {
+    "teste": "Exercício 3 - status",
+    "metodo": "GET",
+    "url": "http://localhost:5000/status",
+    "http": 200,
+    "resposta": {
+      "service": "Flask",
+      "status": "online",
+      "timestamp": "2026-10-11T03:30:09.181088+00:00"
+    }
+  },
+  {
+    "teste": "Exercício 3 - status",
+    "metodo": "GET",
+    "url": "http://localhost:3000/status",
+    "http": 200,
+    "resposta": {
+      "service": "Node.js",
+      "status": "online",
+      "timestamp": "2026-10-11T03:30:09.185Z"
+    }
+  },
+  {
+    "teste": "Exercício 4 - cadastro distribuído",
+    "metodo": "POST",
+    "url": "http://localhost:3000/cadastrar",
+    "http": 201,
+    "resposta": {
+      "id": "3",
+      "nome": "TECLADO",
+      "estoque": 20,
+      "categoria": "Perifericos",
+      "preco": 240
+    }
+  },
+  {
+    "teste": "Exercício 4 - consulta fiscal",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/3",
+    "http": 200,
+    "resposta": {
+      "categoria": "Perifericos",
+      "preco": 240.0
+    }
+  },
+  {
+    "teste": "Exercício 4 - consulta comercial",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/3",
+    "http": 200,
+    "resposta": {
+      "nome": "TECLADO",
+      "estoque": 20
+    }
+  },
+  {
+    "teste": "Exercício 4 - consulta integrada",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/3",
+    "http": 200,
+    "resposta": {
+      "id": "3",
+      "nome": "TECLADO",
+      "estoque": 20,
+      "categoria": "Perifericos",
+      "preco": 240
+    }
+  },
+  {
+    "teste": "Cadastro duplicado",
+    "metodo": "POST",
+    "url": "http://localhost:3000/cadastrar",
+    "http": 409,
+    "resposta": {
+      "error": "ALREADY_EXISTS",
+      "message": "ID já cadastrado"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/-5",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/abc",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/0",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/1.5",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Produto ausente",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/999",
+    "http": 404,
+    "resposta": {
+      "error": "NOT_FOUND",
+      "message": "Produto não encontrado"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/-5",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/abc",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/0",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/1.5",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Produto ausente",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/999",
+    "http": 404,
+    "resposta": {
+      "error": "NOT_FOUND",
+      "message": "Produto não encontrado"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/-5",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/abc",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/0",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Exercício 5 - ID inválido",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/1.5",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_ID",
+      "message": "O ID deve ser um inteiro positivo"
+    }
+  },
+  {
+    "teste": "Produto ausente",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/999",
+    "http": 404,
+    "resposta": {
+      "error": "NOT_FOUND",
+      "message": "Produto não encontrado"
+    }
+  },
+  {
+    "teste": "Dados inválidos",
+    "metodo": "POST",
+    "url": "http://localhost:5000/fiscal/cadastrar",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_DATA",
+      "message": "Preço e categoria inválidos"
+    }
+  },
+  {
+    "teste": "JSON malformado",
+    "metodo": "POST",
+    "url": "http://localhost:5000/fiscal/cadastrar",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_DATA",
+      "message": "Envie um objeto JSON"
+    }
+  },
+  {
+    "teste": "Dados inválidos",
+    "metodo": "POST",
+    "url": "http://localhost:3000/cadastrar",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_DATA",
+      "message": "Dados do produto inválidos"
+    }
+  },
+  {
+    "teste": "JSON malformado",
+    "metodo": "POST",
+    "url": "http://localhost:3000/cadastrar",
+    "http": 400,
+    "resposta": {
+      "error": "INVALID_JSON",
+      "message": "JSON inválido"
+    }
+  },
+  {
+    "teste": "Cadastro fiscal direto",
+    "metodo": "POST",
+    "url": "http://localhost:5000/fiscal/cadastrar",
+    "http": 201,
+    "resposta": {
+      "categoria": "Teste",
+      "preco": 120.01
+    }
+  },
+  {
+    "teste": "Arredondamento monetário",
+    "metodo": "GET",
+    "url": "http://localhost:5000/detalhes/5",
+    "http": 200,
+    "resposta": {
+      "categoria": "Teste",
+      "preco": 120.01
+    }
+  },
+  {
+    "teste": "Proxy com Flask desligado",
+    "metodo": "GET",
+    "url": "http://localhost:3000/api/full-info/1",
+    "http": 502,
+    "resposta": {
+      "error": "FISCAL_UNAVAILABLE",
+      "message": "Serviço fiscal indisponível"
+    }
+  },
+  {
+    "teste": "Cadastro com Flask desligado",
+    "metodo": "POST",
+    "url": "http://localhost:3000/cadastrar",
+    "http": 502,
+    "resposta": {
+      "error": "FISCAL_UNAVAILABLE",
+      "message": "Serviço fiscal indisponível"
+    }
+  },
+  {
+    "teste": "Sem gravação comercial na falha",
+    "metodo": "GET",
+    "url": "http://localhost:3000/estoque/4",
+    "http": 404,
+    "resposta": {
+      "error": "NOT_FOUND",
+      "message": "Produto não encontrado"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+$ python cliente_relatorio.py 
+Informe o id: ID: 1 | Nome: Dell XPS 13 | Preço: R$ 2500.0 | Estoque: 10
+
+$ python cliente_relatorio.py --id 2
+ID: 2 | Nome: Monitor LG 29 | Preço: R$ 1200.0 | Estoque: 5
+
+$ python cliente_relatorio.py --id 3
+ID: 3 | Nome: TECLADO | Preço: R$ 240.0 | Estoque: 20
+
+$ python cliente_relatorio.py --status
+Flask: online | 2026-10-11T03:30:39.567109+00:00
+Node.js: online | 2026-10-11T03:30:39.571Z
+
+$ python cliente_relatorio.py --id -5
+Erro HTTP 400: {"error":"INVALID_ID","message":"O ID deve ser um inteiro positivo"}
