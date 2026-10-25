@@ -1,0 +1,106 @@
+2026-10-25 02:36:45,065Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,066Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,068Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,069Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,072Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,074Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,074Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,075Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,076Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,076Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,077Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,078Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,082Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,084Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,086Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,093Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:45,095Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,097Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,098Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,100Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:45,110Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:45,112Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:45,114Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:45,117Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:45,118Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:45,120Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:45,121Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:45,126Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:45,126Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T04:36:43.823Z
+2026-10-25 02:36:45,127Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:45,129Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:36:46,140Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T04:36:43.823Z
+2026-10-25 02:36:46,146Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:46.142Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 1, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T04:36:43.823Z", "horario_fim_utc": "2026-10-26T04:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:45.052Z"}}
+2026-10-25 02:36:46,147Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,167Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+2026-10-25 02:44:58,252Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,252Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,253Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,254Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,255Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,259Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,255Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,260Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,261Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,262Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,267Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,263Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,263Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,264Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,265Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,265Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,263Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:58,267Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,269Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,276Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:58,279Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:44:58,281Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,283Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,283Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,287Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,290Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,292Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,293Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,295Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,297Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:44:58,302Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T04:44:57.034Z
+2026-10-25 02:44:59,305Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T04:44:57.034Z
+2026-10-25 02:44:59,317Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:59.307Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 2, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T04:44:57.034Z", "horario_fim_utc": "2026-10-26T04:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:58.234Z"}}
+2026-10-25 02:44:59,317Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:44:59,324Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+2026-10-25 02:47:45,056Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+2026-10-25 02:47:46,218Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,219Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,220Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,221Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,222Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,222Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,222Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,223Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,224Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,225Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,226Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,226Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,226Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:46,228Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,228Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,229Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:46,229Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,230Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,230Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,230Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,232Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:46,232Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:46,242Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:46,243Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:46,246Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:46,246Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:46,251Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T12:46:43.823Z
+2026-10-25 02:47:46,253Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:46,254Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:46,255Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:46,256Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+2026-10-25 02:47:47,259Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T12:46:43.823Z
+2026-10-25 02:47:47,269Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:47.260Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 3, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T12:46:43.823Z", "horario_fim_utc": "2026-10-26T12:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:46.210Z"}}
+2026-10-25 02:47:47,269Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,276Z INFO servico-agendamento Requisicao recebida para GET /agendamentos

@@ -1,0 +1,69 @@
+{
+  "executado_em_utc": "2026-10-25T15:43:57.529Z",
+  "testes": [
+    {
+      "nome": "Contrato, validacao, sobreposicao e cancelamento HATEOAS",
+      "entradas_invalidas": 9,
+      "criacao": {
+        "status": 201,
+        "body": {
+          "_links": {
+            "cancelar": {
+              "href": "/agendamentos/10",
+              "method": "DELETE"
+            },
+            "collection": {
+              "href": "/agendamentos",
+              "method": "GET"
+            },
+            "self": {
+              "href": "/agendamentos/10",
+              "method": "GET"
+            }
+          },
+          "cientista_id": 5,
+          "criado_em_utc": "2026-10-25T15:43:57.655Z",
+          "horario_fim_utc": "2026-10-27T08:26:43.823Z",
+          "horario_inicio_utc": "2026-10-27T08:21:43.823Z",
+          "id": 10,
+          "status": "ativo",
+          "telescopio_id": 1,
+          "timestamp_cliente_utc": "2026-10-25T15:43:57.648Z"
+        },
+        "location": "/agendamentos/10"
+      },
+      "cancelamento": {
+        "status": 200,
+        "body": {
+          "_links": {
+            "collection": {
+              "href": "/agendamentos",
+              "method": "GET"
+            },
+            "self": {
+              "href": "/agendamentos/10",
+              "method": "GET"
+            }
+          },
+          "cientista_id": 5,
+          "criado_em_utc": "2026-10-25T15:43:57.655Z",
+          "horario_fim_utc": "2026-10-27T08:26:43.823Z",
+          "horario_inicio_utc": "2026-10-27T08:21:43.823Z",
+          "id": 10,
+          "status": "cancelado",
+          "telescopio_id": 1,
+          "timestamp_cliente_utc": "2026-10-25T15:43:57.648Z"
+        },
+        "location": null
+      },
+      "cancelamento_idempotente": true,
+      "reserva_apos_cancelar": true,
+      "intervalo_adjacente": true
+    },
+    {
+      "nome": "Coordenador: exclusao e propriedade do token",
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

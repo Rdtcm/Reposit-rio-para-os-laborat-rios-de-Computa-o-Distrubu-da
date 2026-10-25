@@ -1,0 +1,4 @@
+FROM python:3.12-slim
+RUN pip install --no-cache-dir reportlab==4.4.4 PyMuPDF==1.26.5
+WORKDIR /lab
+ENTRYPOINT ["python", "gerar_relatorio.py"]

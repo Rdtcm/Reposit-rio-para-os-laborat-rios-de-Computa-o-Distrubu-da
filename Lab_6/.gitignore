@@ -1,0 +1,8 @@
+**/__pycache__/
+**/node_modules/
+**/.venv/
+dados/
+tmp/
+*.db
+*.db-shm
+*.db-wal

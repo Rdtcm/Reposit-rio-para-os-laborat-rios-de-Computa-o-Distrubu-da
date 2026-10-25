@@ -1,0 +1,532 @@
+2026-10-25 02:32:47,306Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:32:50,416Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:32:53,523Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:32:56,635Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:32:59,735Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:02,850Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:05,960Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:09,071Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:12,171Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:15,412Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:18,544Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:21,648Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:24,775Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:27,879Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:30,993Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:34,102Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:37,201Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:40,301Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:43,404Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:46,510Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:49,612Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:52,721Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:55,825Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:33:58,929Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:02,033Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:05,138Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:08,234Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:11,333Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:14,431Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:17,530Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:20,630Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:23,736Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:26,842Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:29,944Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:33,052Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:36,152Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:39,249Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:42,344Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:45,450Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:48,545Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:51,649Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:54,758Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:34:57,856Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:00,958Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:04,063Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:07,161Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:10,259Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:13,357Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:16,453Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:19,557Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:22,656Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:25,757Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:28,853Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:31,954Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:35,047Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:38,145Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:41,242Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:44,341Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:47,441Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:50,540Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:53,645Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:56,747Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:35:59,852Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:02,967Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:06,066Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:09,168Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:12,263Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:15,360Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:18,456Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:21,555Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:24,652Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:27,754Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:30,910Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:34,018Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:37,118Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:40,218Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:43,317Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:46,175Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,179Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,199Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,214Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,229Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,229Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:46,234Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:46,236Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,260Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,260Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-999999
+2026-10-25 02:36:46,263Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-999999
+2026-10-25 02:36:46,265Z INFO servico-agendamento Liberando lock para o recurso telescopio-999999
+2026-10-25 02:36:46,275Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,290Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,307Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,323Z INFO servico-agendamento Requisicao recebida para GET /agendamentos/999999
+2026-10-25 02:36:46,338Z INFO servico-agendamento Requisicao recebida para POST /cientistas
+2026-10-25 02:36:46,349Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,350Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:46,352Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:46,353Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T10:36:43.823Z
+2026-10-25 02:36:46,356Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T10:36:43.823Z
+2026-10-25 02:36:46,365Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:46.359Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 1, "cientista_id": 2, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T10:36:43.823Z", "horario_fim_utc": "2026-10-26T10:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:46.348Z"}}
+2026-10-25 02:36:46,366Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,373Z INFO servico-agendamento Requisicao recebida para GET /agendamentos/1
+2026-10-25 02:36:46,384Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,384Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:46,387Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:46,389Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T10:37:43.823Z
+2026-10-25 02:36:46,390Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,399Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,399Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:46,402Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:46,403Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T10:36:43.823Z
+2026-10-25 02:36:46,404Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,415Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,415Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:46,418Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:46,419Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T10:41:43.823Z
+2026-10-25 02:36:46,419Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T10:41:43.823Z
+2026-10-25 02:36:46,423Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:46.420Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 2, "cientista_id": 2, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T10:41:43.823Z", "horario_fim_utc": "2026-10-26T10:46:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:46.348Z"}}
+2026-10-25 02:36:46,424Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,436Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:46,445Z INFO servico-agendamento Requisicao recebida para DELETE /agendamentos/1
+2026-10-25 02:36:46,446Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:46,449Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:46,455Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:46.451Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CANCELADO", "service": "servico-agendamento", "details": {"agendamento_id": 1, "cientista_id": 2, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T10:36:43.823Z", "horario_fim_utc": "2026-10-26T10:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:46.348Z"}}
+2026-10-25 02:36:46,455Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,476Z INFO servico-agendamento Requisicao recebida para DELETE /agendamentos/1
+2026-10-25 02:36:46,477Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:46,480Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:46,481Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,491Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:46,491Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:36:46,494Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:36:46,496Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T10:36:43.823Z
+2026-10-25 02:36:46,496Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T10:36:43.823Z
+2026-10-25 02:36:46,500Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:46.497Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 3, "cientista_id": 2, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T10:36:43.823Z", "horario_fim_utc": "2026-10-26T10:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:46.348Z"}}
+2026-10-25 02:36:46,500Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:36:46,576Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:36:46,584Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:36:46,600Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:36:46,603Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:36:46,606Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:36:49,544Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:52,670Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:55,776Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:36:58,879Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:01,999Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:05,105Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:08,204Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:11,328Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:14,448Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:17,572Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:20,680Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:23,780Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:26,908Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:30,010Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:33,115Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:36,225Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:39,340Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:42,444Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:45,553Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:48,655Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:51,757Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:54,864Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:37:57,963Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:01,089Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:04,188Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:07,294Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:10,394Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:13,490Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:16,590Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:19,691Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:22,799Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:25,895Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:28,997Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:32,113Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:35,212Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:38,309Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:41,413Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:44,522Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:47,626Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:50,731Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:53,841Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:38:56,947Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:00,093Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:03,205Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:06,308Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:09,416Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:12,516Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:15,645Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:18,747Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:21,867Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:24,981Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:28,113Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:31,249Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:34,380Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:37,504Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:40,602Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:43,713Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:46,813Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:49,922Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:53,024Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:56,128Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:39:59,234Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:02,343Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:05,454Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:08,559Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:11,670Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:14,777Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:17,883Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:20,988Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:24,123Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:27,232Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:30,334Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:33,442Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:36,549Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:39,672Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:42,772Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:45,877Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:48,983Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:52,086Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:55,212Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:40:58,313Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:01,413Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:04,514Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:07,613Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:10,713Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:13,813Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:16,907Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:20,002Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:23,103Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:26,208Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:29,304Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:32,412Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:35,526Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:38,656Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:41,771Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:44,942Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:48,068Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:51,282Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:54,399Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:41:57,513Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:00,623Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:03,738Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:06,854Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:09,958Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:13,056Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:16,158Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:19,266Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:22,374Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:25,480Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:28,589Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:31,692Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:34,806Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:37,909Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:41,006Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:44,105Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:47,212Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:50,327Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:53,462Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:56,592Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:42:59,710Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:02,824Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:05,930Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:09,033Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:12,134Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:15,266Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:18,385Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:21,516Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:24,629Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:27,778Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:30,886Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:33,986Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:37,102Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:40,210Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:43,337Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:46,439Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:49,540Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:52,747Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:55,858Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:43:58,962Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:02,066Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:05,174Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:08,282Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:11,390Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:14,490Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:17,592Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:20,703Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:23,834Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:26,947Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:30,065Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:33,213Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:36,314Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:39,413Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:42,507Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:45,608Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:48,707Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:51,806Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:54,912Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:58,024Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:44:59,329Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,333Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,337Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,341Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,348Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,348Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:59,353Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:44:59,357Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:44:59,367Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,368Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-999999
+2026-10-25 02:44:59,374Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-999999
+2026-10-25 02:44:59,377Z INFO servico-agendamento Liberando lock para o recurso telescopio-999999
+2026-10-25 02:44:59,392Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,400Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,406Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,412Z INFO servico-agendamento Requisicao recebida para GET /agendamentos/999999
+2026-10-25 02:44:59,420Z INFO servico-agendamento Requisicao recebida para POST /cientistas
+2026-10-25 02:44:59,433Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:59,434Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:44:59,439Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:44:59,441Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T10:44:57.034Z
+2026-10-25 02:44:59,443Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:45:01,126Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:04,227Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:07,329Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:10,436Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:13,543Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:16,656Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:19,755Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:22,863Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:26,024Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:29,131Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:32,239Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:35,338Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:38,441Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:41,550Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:44,650Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:47,754Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:50,850Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:53,953Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:45:57,056Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:00,180Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:03,290Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:06,397Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:09,504Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:12,615Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:15,727Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:18,844Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:21,954Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:25,068Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:28,168Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:31,291Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:34,398Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:37,503Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:40,609Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:43,731Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:46,831Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:49,928Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:53,034Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:56,133Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:46:59,229Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:02,331Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:05,438Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:08,542Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:11,642Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:14,745Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:17,848Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:20,944Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:24,068Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:27,170Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:30,288Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:33,389Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:36,492Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:39,598Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:42,696Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:45,028Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+2026-10-25 02:47:45,804Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:47,281Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,284Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,289Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,292Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,296Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,296Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:47,300Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:47,301Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,308Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,309Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-999999
+2026-10-25 02:47:47,311Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-999999
+2026-10-25 02:47:47,313Z INFO servico-agendamento Liberando lock para o recurso telescopio-999999
+2026-10-25 02:47:47,319Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,323Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,327Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,331Z INFO servico-agendamento Requisicao recebida para GET /agendamentos/999999
+2026-10-25 02:47:47,335Z INFO servico-agendamento Requisicao recebida para POST /cientistas
+2026-10-25 02:47:47,344Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,344Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:47,347Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:47,348Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T18:46:43.823Z
+2026-10-25 02:47:47,349Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T18:46:43.823Z
+2026-10-25 02:47:47,352Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:47.349Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 4, "cientista_id": 4, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T18:46:43.823Z", "horario_fim_utc": "2026-10-26T18:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"}}
+2026-10-25 02:47:47,352Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,360Z INFO servico-agendamento Requisicao recebida para GET /agendamentos/4
+2026-10-25 02:47:47,364Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,364Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:47,367Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:47,368Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T18:47:43.823Z
+2026-10-25 02:47:47,369Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,376Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,376Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:47,378Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:47,380Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T18:46:43.823Z
+2026-10-25 02:47:47,380Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,387Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,388Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:47,391Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:47,392Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T18:51:43.823Z
+2026-10-25 02:47:47,392Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T18:51:43.823Z
+2026-10-25 02:47:47,397Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:47.393Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 5, "cientista_id": 4, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T18:51:43.823Z", "horario_fim_utc": "2026-10-26T18:56:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"}}
+2026-10-25 02:47:47,397Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,403Z INFO servico-agendamento Requisicao recebida para DELETE /agendamentos/4
+2026-10-25 02:47:47,405Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:47,408Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:47,413Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:47.409Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CANCELADO", "service": "servico-agendamento", "details": {"agendamento_id": 4, "cientista_id": 4, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T18:46:43.823Z", "horario_fim_utc": "2026-10-26T18:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"}}
+2026-10-25 02:47:47,413Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,420Z INFO servico-agendamento Requisicao recebida para DELETE /agendamentos/4
+2026-10-25 02:47:47,422Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:47,424Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:47,425Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,432Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:47,432Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:47,435Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:47,436Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T18:46:43.823Z
+2026-10-25 02:47:47,437Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T18:46:43.823Z
+2026-10-25 02:47:47,441Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:47.437Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 6, "cientista_id": 4, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T18:46:43.823Z", "horario_fim_utc": "2026-10-26T18:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"}}
+2026-10-25 02:47:47,441Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+2026-10-25 02:47:47,470Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:47:47,474Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:47:47,477Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:47:47,480Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:47:47,483Z INFO servico-agendamento Requisicao recebida para GET /time
+2026-10-25 02:47:48,907Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:51,019Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:51,020Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:52,013Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:53,571Z ERROR servico-agendamento Coordenador indisponivel; escrita recusada
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 567, in request
+    self.endheaders()
+  File "/usr/local/lib/python3.12/http/client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1141, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPConnection(host='servico-coordenador', port=3000): Failed to resolve 'servico-coordenador' ([Errno -2] Name or service not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='servico-coordenador', port=3000): Max retries exceeded with url: /lock (Caused by NameResolutionError("HTTPConnection(host='servico-coordenador', port=3000): Failed to resolve 'servico-coordenador' ([Errno -2] Name or service not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 234, in create_agendamento
+    token = acquire(resource) if LOCK_ENABLED else None
+            ^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 118, in acquire
+    response = requests.post(f'{COORDENADOR}/lock', json={'resource': resource}, timeout=3)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='servico-coordenador', port=3000): Max retries exceeded with url: /lock (Caused by NameResolutionError("HTTPConnection(host='servico-coordenador', port=3000): Failed to resolve 'servico-coordenador' ([Errno -2] Name or service not known)"))
+2026-10-25 02:47:53,580Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+2026-10-25 02:47:55,117Z INFO servico-agendamento Requisicao recebida para GET /health
+2026-10-25 02:47:57,465Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:57,465Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+2026-10-25 02:47:57,477Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+2026-10-25 02:47:57,478Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T19:46:43.823Z
+2026-10-25 02:47:57,478Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T19:46:43.823Z
+2026-10-25 02:47:57,483Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:57.479Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 7, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T19:46:43.823Z", "horario_fim_utc": "2026-10-26T19:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:47.484Z"}}
+2026-10-25 02:47:57,483Z INFO servico-agendamento Liberando lock para o recurso telescopio-1

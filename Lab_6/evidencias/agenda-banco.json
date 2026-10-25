@@ -1,0 +1,202 @@
+{
+  "agendamentos": [
+    [
+      1,
+      2,
+      1,
+      "2026-10-26T10:36:43.823Z",
+      "2026-10-26T10:41:43.823Z",
+      "2026-10-25T02:36:46.348Z",
+      "2026-10-25T02:36:46.357Z",
+      "cancelado"
+    ],
+    [
+      2,
+      2,
+      1,
+      "2026-10-26T10:41:43.823Z",
+      "2026-10-26T10:46:43.823Z",
+      "2026-10-25T02:36:46.348Z",
+      "2026-10-25T02:36:46.419Z",
+      "ativo"
+    ],
+    [
+      3,
+      2,
+      1,
+      "2026-10-26T10:36:43.823Z",
+      "2026-10-26T10:41:43.823Z",
+      "2026-10-25T02:36:46.348Z",
+      "2026-10-25T02:36:46.496Z",
+      "ativo"
+    ],
+    [
+      4,
+      4,
+      1,
+      "2026-10-26T18:46:43.823Z",
+      "2026-10-26T18:51:43.823Z",
+      "2026-10-25T02:47:47.342Z",
+      "2026-10-25T02:47:47.349Z",
+      "cancelado"
+    ],
+    [
+      5,
+      4,
+      1,
+      "2026-10-26T18:51:43.823Z",
+      "2026-10-26T18:56:43.823Z",
+      "2026-10-25T02:47:47.342Z",
+      "2026-10-25T02:47:47.393Z",
+      "ativo"
+    ],
+    [
+      6,
+      4,
+      1,
+      "2026-10-26T18:46:43.823Z",
+      "2026-10-26T18:51:43.823Z",
+      "2026-10-25T02:47:47.342Z",
+      "2026-10-25T02:47:47.437Z",
+      "ativo"
+    ],
+    [
+      7,
+      1,
+      1,
+      "2026-10-26T19:46:43.823Z",
+      "2026-10-26T19:51:43.823Z",
+      "2026-10-25T02:47:47.484Z",
+      "2026-10-25T02:47:57.478Z",
+      "ativo"
+    ]
+  ],
+  "auditoria": [
+    {
+      "timestamp_utc": "2026-10-25T02:36:46.359Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 1,
+        "cientista_id": 2,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T10:36:43.823Z",
+        "horario_fim_utc": "2026-10-26T10:41:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:36:46.348Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:36:46.420Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 2,
+        "cientista_id": 2,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T10:41:43.823Z",
+        "horario_fim_utc": "2026-10-26T10:46:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:36:46.348Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:36:46.451Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CANCELADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 1,
+        "cientista_id": 2,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T10:36:43.823Z",
+        "horario_fim_utc": "2026-10-26T10:41:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:36:46.348Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:36:46.497Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 3,
+        "cientista_id": 2,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T10:36:43.823Z",
+        "horario_fim_utc": "2026-10-26T10:41:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:36:46.348Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:47:47.349Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 4,
+        "cientista_id": 4,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T18:46:43.823Z",
+        "horario_fim_utc": "2026-10-26T18:51:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:47:47.393Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 5,
+        "cientista_id": 4,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T18:51:43.823Z",
+        "horario_fim_utc": "2026-10-26T18:56:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:47:47.409Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CANCELADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 4,
+        "cientista_id": 4,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T18:46:43.823Z",
+        "horario_fim_utc": "2026-10-26T18:51:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:47:47.437Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 6,
+        "cientista_id": 4,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T18:46:43.823Z",
+        "horario_fim_utc": "2026-10-26T18:51:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:47:57.479Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 7,
+        "cientista_id": 1,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T19:46:43.823Z",
+        "horario_fim_utc": "2026-10-26T19:51:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:47:47.484Z"
+      }
+    }
+  ]
+}

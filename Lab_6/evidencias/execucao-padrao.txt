@@ -1,0 +1,111 @@
+{
+  "nome": "Aplicacao padrao: concorrencia sem pausa artificial",
+  "entrada": {
+    "cientista_id": 1,
+    "telescopio_id": 1,
+    "horario_inicio_utc": "2026-10-26T20:51:43.823Z",
+    "horario_fim_utc": "2026-10-26T20:56:43.823Z",
+    "timestamp_cliente_utc": "2026-10-25T03:21:42.650Z"
+  },
+  "codigos": {
+    "201": 1,
+    "409": 9
+  },
+  "registros": 1,
+  "ids": [
+    8
+  ],
+  "respostas": [
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/8",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/8",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T03:21:42.722Z",
+        "horario_fim_utc": "2026-10-26T20:56:43.823Z",
+        "horario_inicio_utc": "2026-10-26T20:51:43.823Z",
+        "id": 8,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T03:21:42.650Z"
+      },
+      "location": "/agendamentos/8"
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    }
+  ]
+}

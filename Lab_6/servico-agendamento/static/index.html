@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCTEC | Agenda do telescópio</title>
+<style>
+body{font:16px system-ui,sans-serif;max-width:850px;margin:40px auto;padding:0 20px;background:#f5f7fa;color:#172b40}h1{margin-bottom:8px}section{background:white;padding:24px;margin:20px 0;border:1px solid #dce3ea;border-radius:8px}label{display:block;margin:12px 0}input,select,button{font:inherit;padding:8px}button{cursor:pointer}button:disabled{cursor:wait}#resultado{white-space:pre-wrap;overflow-wrap:anywhere}li{padding:12px 0}small{display:block;color:#526477}
+</style>
+<h1>Agenda do telescópio</h1><p>Sistema de Controle de Telescópio Espacial Compartilhado</p>
+<section><h2>Relógio sincronizado</h2><p id="relogio">Sincronizando…</p><small id="sincronia"></small><button id="sync">Sincronizar novamente</button></section>
+<section><h2>Reservar observação</h2>
+<form id="form"><label>Cientista <select id="cientista" required></select></label>
+<label>Telescópio <select id="telescopio" required></select></label>
+<label>Início (horário local) <input id="inicio" type="datetime-local" required></label>
+<label>Fim (horário local) <input id="fim" type="datetime-local" required></label>
+<small>Os horários são convertidos para UTC antes do envio.</small>
+<button id="reservar" disabled>Reservar</button></form><p id="resultado" role="status"></p></section>
+<section><h2>Agendamentos</h2><button id="atualizar">Atualizar lista</button><ul id="agenda"></ul></section>
+<script src="/static/cliente.js"></script>
+</html>

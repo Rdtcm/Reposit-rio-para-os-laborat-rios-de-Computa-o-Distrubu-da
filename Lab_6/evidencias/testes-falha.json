@@ -1,0 +1,18 @@
+{
+  "executado_em_utc": "2026-10-25T15:43:57.833Z",
+  "testes": [
+    {
+      "nome": "Coordenador indisponivel e recuperacao",
+      "resposta": {
+        "status": 503,
+        "body": {
+          "error": "Coordenador indisponivel"
+        },
+        "location": null
+      },
+      "registros_durante_falha": 0,
+      "recuperacao": 201
+    }
+  ],
+  "aprovado": true
+}

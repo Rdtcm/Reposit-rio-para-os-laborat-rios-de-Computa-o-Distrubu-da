@@ -1,0 +1,934 @@
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> node testes.mjs sem-lock
+{
+  "nome": "Entrega 2: sem lock",
+  "entrada": {
+    "cientista_id": 1,
+    "telescopio_id": 1,
+    "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+    "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+    "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+  },
+  "codigos": {
+    "201": 10
+  },
+  "registros": 10,
+  "ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "respostas": [
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/51",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/51",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.271Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 51,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/51"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/57",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/57",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.279Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 57,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/57"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/52",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/52",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.281Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 52,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/52"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/59",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/59",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.280Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 59,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/59"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/60",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/60",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.281Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 60,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/60"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/54",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/54",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.283Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 54,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/54"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/56",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/56",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.287Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 56,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/56"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/55",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/55",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.288Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 55,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/55"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/53",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/53",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.284Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 53,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/53"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/58",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/58",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:10.288Z",
+        "horario_fim_utc": "2026-10-27T00:11:43.823Z",
+        "horario_inicio_utc": "2026-10-27T00:06:43.823Z",
+        "id": 58,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"
+      },
+      "location": "/agendamentos/58"
+    }
+  ]
+}
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> if ($LASTEXITCODE -ne 0) { throw 'O teste falhou; examine a saída antes de capturar.' }
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> $resultado = Get-Content -Raw evidencias/testes-sem-lock.json | ConvertFrom-Json
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> $resultado | Select-Object executado_em_utc, aprovado
+
+executado_em_utc         aprovado
+----------------         --------
+2026-10-25T15:39:09.193Z     True
+
+
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> $resultado.testes[0] | Select-Object nome, entrada, codigos, registros, ids | Format-List
+
+
+nome      : Entrega 2: sem lock
+entrada   : @{cientista_id=1; telescopio_id=1; horario_inicio_utc=2026-10-27T00:06:43.823Z;
+            horario_fim_utc=2026-10-27T00:11:43.823Z; timestamp_cliente_utc=2026-10-25T15:39:09.244Z}
+codigos   : @{201=10}
+registros : 10
+ids       : {51, 52, 53, 54...}
+
+
+
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> docker compose exec -T demonstracao-sem-lock python -c "import sqlite3; c=sqlite3.connect('/dados/sem-lock.db'); print(c.execute('SELECT horario_inicio_utc, COUNT(*), GROUP_CONCAT(id) FROM agendamento GROUP BY horario_inicio_utc ORDER BY MAX(id) DESC LIMIT 1').fetchall())"
+[('2026-10-27T00:06:43.823Z', 10, '51,52,53,54,55,56,57,58,59,60')]
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> docker compose logs --since 1m --no-color demonstracao-sem-lock
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,236Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:09 +0000] "GET /agendamentos HTTP/1.1" 200 21131 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,255Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,256Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,258Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,260Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,261Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,263Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,265Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,267Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,268Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,268Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,269Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,270Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,271Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,271Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,273Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,280Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,280Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,284Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,285Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:09,286Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,271Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,279Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,280Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,280Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,281Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,282Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.272Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 51, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,282Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,284Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,285Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.282Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 52, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,286Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,287Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,287Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T00:06:43.823Z
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,291Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.286Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 53, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,296Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.292Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 54, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,301Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.297Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 55, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,308Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.306Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 56, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,316Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.314Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 57, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,325Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.322Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 58, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,338Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.335Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 59, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,364Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:10.360Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 60, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T00:06:43.823Z", "horario_fim_utc": "2026-10-27T00:11:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:09.244Z"}}
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "POST /agendamentos HTTP/1.1" 201 420 "-" "node"
+demonstracao-sem-lock-1  | 2026-10-25 15:39:10,367Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+demonstracao-sem-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:10 +0000] "GET /agendamentos?inicio=2026-10-27T00%3A06%3A43.823Z HTTP/1.1" 200 4358 "-" "node"
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> node testes.mjs com-lock
+{
+  "nome": "Entrega 3: com lock",
+  "entrada": {
+    "cientista_id": 1,
+    "telescopio_id": 1,
+    "horario_inicio_utc": "2026-10-27T01:11:43.823Z",
+    "horario_fim_utc": "2026-10-27T01:16:43.823Z",
+    "timestamp_cliente_utc": "2026-10-25T15:39:40.782Z"
+  },
+  "codigos": {
+    "201": 1,
+    "409": 9
+  },
+  "registros": 1,
+  "ids": [
+    4
+  ],
+  "respostas": [
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/4",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/4",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:39:41.842Z",
+        "horario_fim_utc": "2026-10-27T01:16:43.823Z",
+        "horario_inicio_utc": "2026-10-27T01:11:43.823Z",
+        "id": 4,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:39:40.782Z"
+      },
+      "location": "/agendamentos/4"
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    }
+  ]
+}
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> if ($LASTEXITCODE -ne 0) { throw 'O teste falhou; examine a saída antes de capturar.' }
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> $resultado = Get-Content -Raw evidencias/testes-com-lock.json | ConvertFrom-Json
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> $resultado | Select-Object executado_em_utc, aprovado
+
+executado_em_utc         aprovado
+----------------         --------
+2026-10-25T15:39:40.731Z     True
+
+
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> $resultado.testes[0] | Select-Object nome, entrada, codigos, registros, ids | Format-List
+
+
+nome      : Entrega 3: com lock
+entrada   : @{cientista_id=1; telescopio_id=1; horario_inicio_utc=2026-10-27T01:11:43.823Z;
+            horario_fim_utc=2026-10-27T01:16:43.823Z; timestamp_cliente_utc=2026-10-25T15:39:40.782Z}
+codigos   : @{201=1; 409=9}
+registros : 1
+ids       : {4}
+
+
+
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> docker compose exec -T demonstracao-com-lock python -c "import sqlite3; c=sqlite3.connect('/dados/com-lock.db'); print(c.execute('SELECT horario_inicio_utc, COUNT(*), GROUP_CONCAT(id) FROM agendamento GROUP BY horario_inicio_utc ORDER BY MAX(id) DESC LIMIT 1').fetchall())"
+[('2026-10-27T01:11:43.823Z', 1, '4')]
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> docker compose logs --since 1m --no-color demonstracao-com-lock servico-coordenador
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,780Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "GET /agendamentos HTTP/1.1" 200 1409 "-" "node"
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,793Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,794Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.824Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,795Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,796Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,797Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,798Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,798Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,798Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,799Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,799Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,800Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,800Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,801Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,802Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,803Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.825Z","level":"INFO","service":"servico-coordenador","event":"Lock concedido","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.826Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.826Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.828Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.828Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.829Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.830Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.831Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.831Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.831Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.832Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.832Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.833Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.833Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.834Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.835Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.835Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.840Z","level":"INFO","service":"servico-coordenador","event":"Recebido pedido de lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:40.841Z","level":"INFO","service":"servico-coordenador","event":"Recurso em uso, negando lock","resource":"telescopio-1"}
+servico-coordenador-1    | {"timestamp_utc":"2026-10-25T15:39:41.853Z","level":"INFO","service":"servico-coordenador","event":"Lock liberado","resource":"telescopio-1"}
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,804Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,804Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,805Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,809Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,810Z INFO servico-agendamento Tentando adquirir lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,827Z INFO servico-agendamento Lock adquirido com sucesso: telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,829Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,831Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,832Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,833Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,833Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-27T01:11:43.823Z
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,834Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,834Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,835Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,836Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 2026-10-25 15:39:40,843Z INFO servico-agendamento Falha ao adquirir lock, recurso ocupado: telescopio-1
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:40 +0000] "POST /agendamentos HTTP/1.1" 409 28 "-" "node"
+demonstracao-com-lock-1  | 2026-10-25 15:39:41,841Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-27T01:11:43.823Z
+demonstracao-com-lock-1  | 2026-10-25 15:39:41,851Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T15:39:41.845Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 4, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-27T01:11:43.823Z", "horario_fim_utc": "2026-10-27T01:16:43.823Z", "timestamp_cliente_utc": "2026-10-25T15:39:40.782Z"}}
+demonstracao-com-lock-1  | 2026-10-25 15:39:41,851Z INFO servico-agendamento Liberando lock para o recurso telescopio-1
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:41 +0000] "POST /agendamentos HTTP/1.1" 201 417 "-" "node"
+demonstracao-com-lock-1  | 2026-10-25 15:39:41,858Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+demonstracao-com-lock-1  | 172.19.0.1 - - [25/Oct/2026:15:39:41 +0000] "GET /agendamentos?inicio=2026-10-27T01%3A11%3A43.823Z HTTP/1.1" 200 575 "-" "node"
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>  node testes.mjs relogio
+{
+  "nome": "Cristian: cliente simulado adiantado 2000 ms",
+  "amostras": [
+    {
+      "rtt_ms": 4.509299999999996,
+      "timestamp_utc": "2026-10-25T15:40:43.319Z",
+      "offset_ms": -1998.8916015625
+    },
+    {
+      "rtt_ms": 10.143699999999995,
+      "timestamp_utc": "2026-10-25T15:40:43.323Z",
+      "offset_ms": -2001.683837890625
+    },
+    {
+      "rtt_ms": 4.398200000000003,
+      "timestamp_utc": "2026-10-25T15:40:43.334Z",
+      "offset_ms": -1998.06884765625
+    },
+    {
+      "rtt_ms": 3.2428999999999917,
+      "timestamp_utc": "2026-10-25T15:40:43.337Z",
+      "offset_ms": -1998.91259765625
+    },
+    {
+      "rtt_ms": 3.753,
+      "timestamp_utc": "2026-10-25T15:40:43.341Z",
+      "offset_ms": -1998.615478515625
+    }
+  ],
+  "melhor": {
+    "rtt_ms": 3.2428999999999917,
+    "timestamp_utc": "2026-10-25T15:40:43.337Z",
+    "offset_ms": -1998.91259765625
+  }
+}
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> docker compose exec -T servico-agendamento cat /dados/app.log | Select-String 'AGENDAMENTO_CANCELADO' | Select-Object -Last 3
+
+2026-10-25 02:36:46,455Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:46.451Z", "level": "AUDIT", "event_type":
+"AGENDAMENTO_CANCELADO", "service": "servico-agendamento", "details": {"agendamento_id": 1, "cientista_id": 2, "telescopio_id": 1,
+"horario_inicio_utc": "2026-10-26T10:36:43.823Z", "horario_fim_utc": "2026-10-26T10:41:43.823Z", "timestamp_cliente_utc":
+"2026-10-25T02:36:46.348Z"}}
+2026-10-25 02:47:47,413Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:47.409Z", "level": "AUDIT", "event_type":
+"AGENDAMENTO_CANCELADO", "service": "servico-agendamento", "details": {"agendamento_id": 4, "cientista_id": 4, "telescopio_id": 1,
+"horario_inicio_utc": "2026-10-26T18:46:43.823Z", "horario_fim_utc": "2026-10-26T18:51:43.823Z", "timestamp_cliente_utc":
+"2026-10-25T02:47:47.342Z"}}
+
+
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> docker compose logs -f --tail 0 servico-agendamento servico-coordenador
+servico-agendamento-1  | 2026-10-25 15:41:58,662Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:41:58 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:01,751Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:01 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:04,848Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:04 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:07,946Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:07 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:11,045Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:11 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:14,144Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:14 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:17,242Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:17 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:20,331Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:20 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:23,420Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:23 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:26,511Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:26 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:29,598Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:29 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:32,687Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:32 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:35,781Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:35 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:38,868Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:38 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:41,957Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:41 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:45,044Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:45 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:48,132Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:48 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:51,221Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:51 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:54,308Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:54 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:42:57,397Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:42:57 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:00,486Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:00 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:03,573Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:03 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:06,662Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:06 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:09,750Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:09 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:12,839Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:12 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:15,928Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:15 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:19,015Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:19 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:22,102Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:22 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:25,190Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:25 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:28,281Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:28 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:31,376Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:31 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:34,464Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:34 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:37,552Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:37 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:40,643Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:40 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+servico-agendamento-1  | 2026-10-25 15:43:43,732Z INFO servico-agendamento Requisicao recebida para GET /health
+servico-agendamento-1  | 127.0.0.1 - - [25/Oct/2026:15:43:43 +0000] "GET /health HTTP/1.1" 200 36 "-" "Python-urllib/3.12"
+
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> node testes.mjs padrao
+{
+  "nome": "Aplicacao padrao: concorrencia sem pausa artificial",
+  "entrada": {
+    "cientista_id": 1,
+    "telescopio_id": 1,
+    "horario_inicio_utc": "2026-10-27T02:16:43.823Z",
+    "horario_fim_utc": "2026-10-27T02:21:43.823Z",
+    "timestamp_cliente_utc": "2026-10-25T15:43:57.370Z"
+  },
+  "codigos": {
+    "201": 1,
+    "409": 9
+  },
+  "registros": 1,
+  "ids": [
+    9
+  ],
+  "respostas": [
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/9",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/9",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T15:43:57.427Z",
+        "horario_fim_utc": "2026-10-27T02:21:43.823Z",
+        "horario_inicio_utc": "2026-10-27T02:16:43.823Z",
+        "id": 9,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T15:43:57.370Z"
+      },
+      "location": "/agendamentos/9"
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    }
+  ]
+}
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> node testes.mjs contratos
+{
+  "nome": "Contrato, validacao, sobreposicao e cancelamento HATEOAS",
+  "entradas_invalidas": 9,
+  "criacao": {
+    "status": 201,
+    "body": {
+      "_links": {
+        "cancelar": {
+          "href": "/agendamentos/10",
+          "method": "DELETE"
+        },
+        "collection": {
+          "href": "/agendamentos",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/agendamentos/10",
+          "method": "GET"
+        }
+      },
+      "cientista_id": 5,
+      "criado_em_utc": "2026-10-25T15:43:57.655Z",
+      "horario_fim_utc": "2026-10-27T08:26:43.823Z",
+      "horario_inicio_utc": "2026-10-27T08:21:43.823Z",
+      "id": 10,
+      "status": "ativo",
+      "telescopio_id": 1,
+      "timestamp_cliente_utc": "2026-10-25T15:43:57.648Z"
+    },
+    "location": "/agendamentos/10"
+  },
+  "cancelamento": {
+    "status": 200,
+    "body": {
+      "_links": {
+        "collection": {
+          "href": "/agendamentos",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/agendamentos/10",
+          "method": "GET"
+        }
+      },
+      "cientista_id": 5,
+      "criado_em_utc": "2026-10-25T15:43:57.655Z",
+      "horario_fim_utc": "2026-10-27T08:26:43.823Z",
+      "horario_inicio_utc": "2026-10-27T08:21:43.823Z",
+      "id": 10,
+      "status": "cancelado",
+      "telescopio_id": 1,
+      "timestamp_cliente_utc": "2026-10-25T15:43:57.648Z"
+    },
+    "location": null
+  },
+  "cancelamento_idempotente": true,
+  "reserva_apos_cancelar": true,
+  "intervalo_adjacente": true
+}
+{
+  "nome": "Coordenador: exclusao e propriedade do token",
+  "aprovado": true
+}
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6> node testes.mjs falha
+ Container sctec-lab6-servico-coordenador-1 Stopping
+ Container sctec-lab6-servico-coordenador-1 Stopped
+ Container sctec-lab6-servico-coordenador-1 Starting
+ Container sctec-lab6-servico-coordenador-1 Started
+ Container sctec-lab6-servico-coordenador-1 Waiting
+ Container sctec-lab6-servico-coordenador-1 Healthy
+{
+  "nome": "Coordenador indisponivel e recuperacao",
+  "resposta": {
+    "status": 503,
+    "body": {
+      "error": "Coordenador indisponivel"
+    },
+    "location": null
+  },
+  "registros_durante_falha": 0,
+  "recuperacao": 201
+}
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>
+PS C:\Users\Ryan\OneDrive\Documentos\Reposit-rio-para-os-laborat-rios-de-Computa-o-Distrubu-da\Lab_6>

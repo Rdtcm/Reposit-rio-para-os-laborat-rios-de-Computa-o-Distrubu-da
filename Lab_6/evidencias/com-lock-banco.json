@@ -1,0 +1,78 @@
+{
+  "agendamentos": [
+    [
+      1,
+      1,
+      1,
+      "2026-10-26T04:36:43.823Z",
+      "2026-10-26T04:41:43.823Z",
+      "2026-10-25T02:36:45.052Z",
+      "2026-10-25T02:36:46.140Z",
+      "ativo"
+    ],
+    [
+      2,
+      1,
+      1,
+      "2026-10-26T04:44:57.034Z",
+      "2026-10-26T04:49:57.034Z",
+      "2026-10-25T02:44:58.234Z",
+      "2026-10-25T02:44:59.305Z",
+      "ativo"
+    ],
+    [
+      3,
+      1,
+      1,
+      "2026-10-26T12:46:43.823Z",
+      "2026-10-26T12:51:43.823Z",
+      "2026-10-25T02:47:46.210Z",
+      "2026-10-25T02:47:47.259Z",
+      "ativo"
+    ]
+  ],
+  "auditoria": [
+    {
+      "timestamp_utc": "2026-10-25T02:36:46.142Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 1,
+        "cientista_id": 1,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T04:36:43.823Z",
+        "horario_fim_utc": "2026-10-26T04:41:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:36:45.052Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:44:59.307Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 2,
+        "cientista_id": 1,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T04:44:57.034Z",
+        "horario_fim_utc": "2026-10-26T04:49:57.034Z",
+        "timestamp_cliente_utc": "2026-10-25T02:44:58.234Z"
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-25T02:47:47.260Z",
+      "level": "AUDIT",
+      "event_type": "AGENDAMENTO_CRIADO",
+      "service": "servico-agendamento",
+      "details": {
+        "agendamento_id": 3,
+        "cientista_id": 1,
+        "telescopio_id": 1,
+        "horario_inicio_utc": "2026-10-26T12:46:43.823Z",
+        "horario_fim_utc": "2026-10-26T12:51:43.823Z",
+        "timestamp_cliente_utc": "2026-10-25T02:47:46.210Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "nome": "Entrega 2: sem lock",
+  "entrada": {
+    "cientista_id": 1,
+    "telescopio_id": 1,
+    "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+    "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+    "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+  },
+  "codigos": {
+    "201": 10
+  },
+  "registros": 10,
+  "ids": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "respostas": [
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/23",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/23",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.103Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 23,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/23"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/21",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/21",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.095Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 21,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/21"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/25",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/25",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.105Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 25,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/25"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/22",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/22",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.098Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 22,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/22"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/28",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/28",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.110Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 28,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/28"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/26",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/26",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.115Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 26,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/26"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/27",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/27",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.114Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 27,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/27"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/24",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/24",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.114Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 24,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/24"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/29",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/29",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.112Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 29,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/29"
+    },
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/30",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/30",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:46.113Z",
+        "horario_fim_utc": "2026-10-26T11:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T11:46:43.823Z",
+        "id": 30,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"
+      },
+      "location": "/agendamentos/30"
+    }
+  ]
+}
+{
+  "nome": "Entrega 3: com lock",
+  "entrada": {
+    "cientista_id": 1,
+    "telescopio_id": 1,
+    "horario_inicio_utc": "2026-10-26T12:46:43.823Z",
+    "horario_fim_utc": "2026-10-26T12:51:43.823Z",
+    "timestamp_cliente_utc": "2026-10-25T02:47:46.210Z"
+  },
+  "codigos": {
+    "201": 1,
+    "409": 9
+  },
+  "registros": 1,
+  "ids": [
+    3
+  ],
+  "respostas": [
+    {
+      "status": 201,
+      "body": {
+        "_links": {
+          "cancelar": {
+            "href": "/agendamentos/3",
+            "method": "DELETE"
+          },
+          "collection": {
+            "href": "/agendamentos",
+            "method": "GET"
+          },
+          "self": {
+            "href": "/agendamentos/3",
+            "method": "GET"
+          }
+        },
+        "cientista_id": 1,
+        "criado_em_utc": "2026-10-25T02:47:47.259Z",
+        "horario_fim_utc": "2026-10-26T12:51:43.823Z",
+        "horario_inicio_utc": "2026-10-26T12:46:43.823Z",
+        "id": 3,
+        "status": "ativo",
+        "telescopio_id": 1,
+        "timestamp_cliente_utc": "2026-10-25T02:47:46.210Z"
+      },
+      "location": "/agendamentos/3"
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    },
+    {
+      "status": 409,
+      "body": {
+        "error": "Recurso ocupado"
+      },
+      "location": null
+    }
+  ]
+}
+{
+  "nome": "Contrato, validacao, sobreposicao e cancelamento HATEOAS",
+  "entradas_invalidas": 9,
+  "criacao": {
+    "status": 201,
+    "body": {
+      "_links": {
+        "cancelar": {
+          "href": "/agendamentos/4",
+          "method": "DELETE"
+        },
+        "collection": {
+          "href": "/agendamentos",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/agendamentos/4",
+          "method": "GET"
+        }
+      },
+      "cientista_id": 4,
+      "criado_em_utc": "2026-10-25T02:47:47.349Z",
+      "horario_fim_utc": "2026-10-26T18:51:43.823Z",
+      "horario_inicio_utc": "2026-10-26T18:46:43.823Z",
+      "id": 4,
+      "status": "ativo",
+      "telescopio_id": 1,
+      "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"
+    },
+    "location": "/agendamentos/4"
+  },
+  "cancelamento": {
+    "status": 200,
+    "body": {
+      "_links": {
+        "collection": {
+          "href": "/agendamentos",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/agendamentos/4",
+          "method": "GET"
+        }
+      },
+      "cientista_id": 4,
+      "criado_em_utc": "2026-10-25T02:47:47.349Z",
+      "horario_fim_utc": "2026-10-26T18:51:43.823Z",
+      "horario_inicio_utc": "2026-10-26T18:46:43.823Z",
+      "id": 4,
+      "status": "cancelado",
+      "telescopio_id": 1,
+      "timestamp_cliente_utc": "2026-10-25T02:47:47.342Z"
+    },
+    "location": null
+  },
+  "cancelamento_idempotente": true,
+  "reserva_apos_cancelar": true,
+  "intervalo_adjacente": true
+}
+{
+  "nome": "Coordenador: exclusao e propriedade do token",
+  "aprovado": true
+}
+{
+  "nome": "Cristian: cliente simulado adiantado 2000 ms",
+  "amostras": [
+    {
+      "rtt_ms": 3.732300000000123,
+      "timestamp_utc": "2026-10-25T02:47:47.470Z",
+      "offset_ms": -1998.960205078125
+    },
+    {
+      "rtt_ms": 3.395600000000286,
+      "timestamp_utc": "2026-10-25T02:47:47.474Z",
+      "offset_ms": -1999.0087890625
+    },
+    {
+      "rtt_ms": 3.0090000000000146,
+      "timestamp_utc": "2026-10-25T02:47:47.477Z",
+      "offset_ms": -1999.136474609375
+    },
+    {
+      "rtt_ms": 2.911000000000058,
+      "timestamp_utc": "2026-10-25T02:47:47.480Z",
+      "offset_ms": -1998.744384765625
+    },
+    {
+      "rtt_ms": 3.004599999999755,
+      "timestamp_utc": "2026-10-25T02:47:47.483Z",
+      "offset_ms": -1998.939453125
+    }
+  ],
+  "melhor": {
+    "rtt_ms": 2.911000000000058,
+    "timestamp_utc": "2026-10-25T02:47:47.480Z",
+    "offset_ms": -1998.744384765625
+  }
+}
+{
+  "nome": "Coordenador indisponivel e recuperacao",
+  "resposta": {
+    "status": 503,
+    "body": {
+      "error": "Coordenador indisponivel"
+    },
+    "location": null
+  },
+  "registros_durante_falha": 0,
+  "recuperacao": 201
+}

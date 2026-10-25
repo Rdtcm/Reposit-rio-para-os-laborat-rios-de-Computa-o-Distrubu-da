@@ -1,0 +1,124 @@
+2026-10-25 02:36:43,897Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,900Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,901Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,904Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,905Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,907Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,910Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,911Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,912Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,917Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,920Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:36:43,927Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,932Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,933Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,936Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,937Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,937Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,941Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,943Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:43,943Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,920Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,931Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:44.924Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 1, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:44,932Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,936Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,939Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,941Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,942Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,944Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,944Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:44.934Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 2, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:44,945Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,946Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,946Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:36:43.823Z
+2026-10-25 02:36:44,958Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:44.946Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 3, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:44,967Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:44.959Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 4, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:44,977Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:44.970Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 5, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:44,983Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:44.978Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 6, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:44,995Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:44.985Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 7, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:45,006Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:45.000Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 8, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:45,022Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:45.017Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 9, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:45,036Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:36:45.031Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 10, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:36:43.823Z", "horario_fim_utc": "2026-10-26T03:41:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:36:43.823Z"}}
+2026-10-25 02:36:45,043Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+2026-10-25 02:44:57,080Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,081Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,084Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,084Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,087Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,088Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,088Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,090Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,092Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,093Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:44:57,096Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,096Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,102Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,103Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,105Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,112Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,113Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,114Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,116Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:57,118Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,101Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,103Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,106Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,107Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,108Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,110Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.104Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 11, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,118Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.111Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 12, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,119Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,119Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,121Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,122Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,123Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T03:44:57.034Z
+2026-10-25 02:44:58,126Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.118Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 13, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,133Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.126Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 14, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,140Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.134Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 15, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,147Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.141Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 16, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,154Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.148Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 17, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,163Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.156Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 18, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,185Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.178Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 19, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,216Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:44:58.208Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 20, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T03:44:57.034Z", "horario_fim_utc": "2026-10-26T03:49:57.034Z", "timestamp_cliente_utc": "2026-10-25T02:44:57.034Z"}}
+2026-10-25 02:44:58,225Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+2026-10-25 02:47:45,046Z INFO servico-agendamento Requisicao recebida para GET /agendamentos
+2026-10-25 02:47:45,075Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,075Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,077Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,078Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,082Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,084Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,085Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,087Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,088Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,089Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,090Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,092Z INFO servico-agendamento Requisicao recebida para POST /agendamentos
+2026-10-25 02:47:45,096Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,096Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,103Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,104Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,109Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,110Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,112Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:45,113Z INFO servico-agendamento Iniciando verificacao de conflito no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,095Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,097Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,100Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.096Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 21, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,101Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,104Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,108Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.102Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 22, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,108Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,110Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,111Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,113Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,114Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,114Z INFO servico-agendamento Salvando novo agendamento no BD: telescopio-1 2026-10-26T11:46:43.823Z
+2026-10-25 02:47:46,117Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.109Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 23, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,123Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.118Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 24, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,128Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.124Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 25, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,134Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.128Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 26, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,142Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.135Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 27, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,150Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.145Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 28, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,173Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.167Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 29, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,197Z WARNING servico-agendamento {"timestamp_utc": "2026-10-25T02:47:46.193Z", "level": "AUDIT", "event_type": "AGENDAMENTO_CRIADO", "service": "servico-agendamento", "details": {"agendamento_id": 30, "cientista_id": 1, "telescopio_id": 1, "horario_inicio_utc": "2026-10-26T11:46:43.823Z", "horario_fim_utc": "2026-10-26T11:51:43.823Z", "timestamp_cliente_utc": "2026-10-25T02:47:45.062Z"}}
+2026-10-25 02:47:46,203Z INFO servico-agendamento Requisicao recebida para GET /agendamentos

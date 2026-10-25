@@ -1,0 +1,41 @@
+{
+  "executado_em_utc": "2026-10-25T15:40:43.266Z",
+  "testes": [
+    {
+      "nome": "Cristian: cliente simulado adiantado 2000 ms",
+      "amostras": [
+        {
+          "rtt_ms": 4.509299999999996,
+          "timestamp_utc": "2026-10-25T15:40:43.319Z",
+          "offset_ms": -1998.8916015625
+        },
+        {
+          "rtt_ms": 10.143699999999995,
+          "timestamp_utc": "2026-10-25T15:40:43.323Z",
+          "offset_ms": -2001.683837890625
+        },
+        {
+          "rtt_ms": 4.398200000000003,
+          "timestamp_utc": "2026-10-25T15:40:43.334Z",
+          "offset_ms": -1998.06884765625
+        },
+        {
+          "rtt_ms": 3.2428999999999917,
+          "timestamp_utc": "2026-10-25T15:40:43.337Z",
+          "offset_ms": -1998.91259765625
+        },
+        {
+          "rtt_ms": 3.753,
+          "timestamp_utc": "2026-10-25T15:40:43.341Z",
+          "offset_ms": -1998.615478515625
+        }
+      ],
+      "melhor": {
+        "rtt_ms": 3.2428999999999917,
+        "timestamp_utc": "2026-10-25T15:40:43.337Z",
+        "offset_ms": -1998.91259765625
+      }
+    }
+  ],
+  "aprovado": true
+}
