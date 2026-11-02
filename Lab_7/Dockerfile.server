@@ -1,0 +1,14 @@
+FROM debian:bookworm-slim AS build
+RUN apt-get update && apt-get install -y --no-install-recommends g++ cmake make libgrpc++-dev protobuf-compiler-grpc libprotobuf-dev && rm -rf /var/lib/apt/lists/*
+WORKDIR /src
+COPY proto proto
+COPY server_cpp server_cpp
+RUN cmake -S server_cpp -B build && cmake --build build -j2
+
+FROM debian:bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends libgrpc++1.51 libprotobuf32 ghostscript poppler-utils imagemagick coreutils && rm -rf /var/lib/apt/lists/* && useradd -u 10001 -m lab && mkdir /logs && chown lab /logs
+COPY --from=build /src/build/server /usr/local/bin/server
+USER lab
+ENV LOG_PATH=/logs/server.log
+EXPOSE 50051
+ENTRYPOINT ["server"]

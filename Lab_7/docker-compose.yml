@@ -1,0 +1,25 @@
+name: laboratorio7
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    ports:
+      - "127.0.0.1:50051:50051"
+    volumes:
+      - ./evidencias:/logs
+    init: true
+    mem_limit: 512m
+    cpus: 2
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    environment:
+      GRPC_SERVER: server:50051
+    volumes:
+      - ./arquivos:/data
+      - ./evidencias:/evidencias
+    profiles: [tools]
+    depends_on:
+      - server
